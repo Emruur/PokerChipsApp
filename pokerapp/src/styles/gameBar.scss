@@ -1,0 +1,25 @@
+$primary: rgb(211, 53, 53);
+$secondary: rgb(32, 32, 99);
+$dark: rgb(25, 27, 41);
+$light: rgb(226, 226, 226);
+
+.gameBar{
+    
+    background-color: $dark;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        display: inline;
+        margin: 0 1rem;
+        font-size: 1.5rem;
+        color: $light;
+    }
+
+    .total-bet{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+}

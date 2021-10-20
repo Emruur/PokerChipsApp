@@ -1,0 +1,188 @@
+/* Chrome, Safari, Edge, Opera */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.07rem;
+}
+
+button {
+  font-size: 1rem;
+  color: #e2e2e2;
+  border-radius: 10px;
+  padding: 0.3rem 0.6rem;
+  background-color: #191b29;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+}
+
+button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  cursor: pointer;
+  background-color: #e2e2e2;
+  color: #191b29;
+}
+
+.btn-alert {
+  border-color: #ff1100;
+  background-color: #ff1100;
+}
+
+.btn-alert:hover {
+  color: #e2e2e2;
+  background-color: red;
+}
+
+.muted {
+  opacity: 70%;
+}
+
+.loading {
+  height: 100vh;
+  background-color: #191b29;
+  color: #e2e2e2;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.room {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.mainSection {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.mainSection .mainSectionForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #e2e2e2;
+}
+
+.mainSection .mainSectionForm form input {
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.mainSection .mainSectionForm form .btn-container {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSection .mainSectionForm form button {
+  font-size: 1.2rem;
+  color: #e2e2e2;
+  font-weight: 400;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.3rem;
+  -webkit-transition: 80ms;
+  transition: 80ms;
+}
+
+.mainSection .mainSectionForm form button:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+.mainSection .mainSectionForm form .create-btn {
+  background-color: #202063;
+}
+
+.mainSection .mainSectionForm form .join-btn {
+  background-color: #d33535;
+}
+
+.createSection {
+  background-color: #d33535;
+}
+
+.joinSection {
+  background-color: #202063;
+}
+
+.alert {
+  padding: 5px;
+  background-color: #ff1100;
+  /* Red */
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

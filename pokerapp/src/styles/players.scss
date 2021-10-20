@@ -1,0 +1,37 @@
+$primary: rgb(211, 53, 53);
+$secondary: rgb(32, 32, 99);
+$dark: rgb(25, 27, 41);
+$gray: rgb(35, 37, 51);
+$light: rgb(226, 226, 226);
+
+.players{
+    margin: 0;
+    padding-left: 0;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $gray;
+    .player{
+        list-style: none;
+        color: $light;
+        background-color: $dark;
+        padding: 1.5rem;
+        margin: 0.5rem 1rem;
+        border-radius: 25px;
+        border: 2px $secondary solid;
+        display: flex;
+        justify-content: space-between;
+        transition: 200ms;
+
+        
+    }
+    .self{
+       border: 2px green solid; 
+    }
+    .turn{
+        border: 4px yellowgreen solid;
+    }
+
+    
+}

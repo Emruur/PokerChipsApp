@@ -1,0 +1,38 @@
+$primary: rgb(211, 53, 53);
+$secondary: rgb(32, 32, 99);
+$dark: rgb(25, 27, 41);
+$gray: rgb(35, 37, 51);
+$light: rgb(226, 226, 226);
+
+.controlBar{
+    flex-grow: 1;
+    background-color: $dark;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    container{
+        min-width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bi{
+        font-size: 2.5rem;
+        filter: opacity(50%) ;
+        transition: 250ms;
+    }
+
+    .active{
+        filter: opacity(100%);
+        cursor: pointer;
+        font-size: 3.5rem;
+    }
+
+    .x{color: red;}
+    .c{color: green;}
+    .r{color: yellow;}
+}
+

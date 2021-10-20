@@ -1,0 +1,165 @@
+$primary: rgb(211, 53, 53);
+$secondary: rgb(32, 32, 99);
+$dark: rgb(25, 27, 41);
+$light: rgb(226, 226, 226);
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.07rem;
+}
+
+button{
+    font-size: 1rem;
+    color: $light;
+    
+    border-radius: 10px;
+    padding: 0.3rem 0.6rem;
+    background-color: $dark;
+
+    transition: 100ms;
+
+    
+}
+button:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+        background-color: $light;
+        color: $dark;
+    }
+.btn-alert{
+    border-color: #ff1100;
+    background-color: #ff1100;
+}
+
+.btn-alert:hover{
+    color: $light;
+    background-color: red;
+}
+
+.muted{
+    opacity: 70%;
+}
+.loading {
+    
+    height: 100vh;
+    
+    background-color: $dark;
+    color: $light;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+
+.main {
+    display: flex;
+    height: 100vh;
+
+    
+}
+.mainSection {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .mainSectionForm form {
+        display: flex;
+        flex-direction: column;
+        color: $light;
+
+        input {
+            border-radius: 10px;
+            outline: none;
+            font-size: 1.2rem;
+        }
+
+        .btn-container {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            font-size: 1.2rem;
+            color: $light;
+            font-weight: 400;
+            border: none;
+            padding: 0.3rem 0.6rem;
+            border-radius: 0.3rem;
+
+            transition: 80ms;
+        }
+
+        button:hover {
+            cursor: pointer;
+            transform: scale(1.08);
+        }
+
+        .create-btn {
+            background-color: $secondary;
+        }
+
+        .join-btn {
+            background-color: $primary;
+        }
+    }
+}
+
+.createSection {
+    background-color: $primary;
+}
+.joinSection {
+    background-color: $secondary;
+}
+
+.alert {
+    padding: 5px;
+    background-color: #ff1100; /* Red */
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
